@@ -1,0 +1,26 @@
+public class FixDebug_One
+{
+   /* This program displays a greeting */
+   public static void main(String[] args)   
+   {
+      System.out.println("Hello World!");         
+   }
+}
+
+
+/*
+List down the spotted bugs below:
+
+e.g.
+- // wrong syntax for access modifier "publlic" instead of "public"
+
+Bugs:
+1. Class name shouldn’t have blank spaces. Java throws an error if class name has two separated tokens.
+2. Instead of Main, it should be main (lowercase)
+3. String should have open and close square parenthesis
+4. Missing “e” in Systm.out.println
+5. Missing semi colon
+6. Missing close bracket at the end
+
+
+*/
